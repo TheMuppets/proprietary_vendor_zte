@@ -27,20 +27,6 @@ PRODUCT_COPY_FILES := \
     vendor/zte/blade2/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/zte/blade2/proprietary/bin/qmuxd:obj/bin/qmuxd \
     vendor/zte/blade2/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
-    vendor/zte/blade2/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    vendor/zte/blade2/proprietary/etc/firmware/a225_pfp.fw:obj/etc/firmware/a225_pfp.fw \
-    vendor/zte/blade2/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/zte/blade2/proprietary/etc/firmware/a225_pm4.fw:obj/etc/firmware/a225_pm4.fw \
-    vendor/zte/blade2/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/zte/blade2/proprietary/etc/firmware/a225p5_pm4.fw:obj/etc/firmware/a225p5_pm4.fw \
-    vendor/zte/blade2/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/zte/blade2/proprietary/etc/firmware/a300_pfp.fw:obj/etc/firmware/a300_pfp.fw \
-    vendor/zte/blade2/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/zte/blade2/proprietary/etc/firmware/a300_pm4.fw:obj/etc/firmware/a300_pm4.fw \
-    vendor/zte/blade2/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/zte/blade2/proprietary/etc/firmware/leia_pfp_470.fw:obj/etc/firmware/leia_pfp_470.fw \
-    vendor/zte/blade2/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/zte/blade2/proprietary/etc/firmware/leia_pm4_470.fw:obj/etc/firmware/leia_pm4_470.fw \
     vendor/zte/blade2/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/zte/blade2/proprietary/etc/firmware/yamato_pfp.fw:obj/etc/firmware/yamato_pfp.fw \
     vendor/zte/blade2/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
