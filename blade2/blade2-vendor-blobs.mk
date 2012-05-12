@@ -42,8 +42,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/blade2/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/zte/blade2/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/zte/blade2/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-	vendor/zte/blade2/proprietary/bin/BCM4330B1_0243.0000_ZTE_P736V.hcd:system/bin/BCM4330B1_0243.0000_ZTE_P736V.hcd \
-	vendor/zte/blade2/proprietary/etc/BCM4330B1_002.001.032.0518.0520.hcd:system/etc/BCM4330B1_002.001.032.0518.0520.hcd \
+    vendor/zte/blade2/proprietary/bin/BCM4330B1_0243.0000_ZTE_P736V.hcd:system/bin/BCM4330B1_0243.0000_ZTE_P736V.hcd \
+    vendor/zte/blade2/proprietary/etc/BCM4330B1_002.001.032.0518.0520.hcd:system/etc/BCM4330B1_002.001.032.0518.0520.hcd \
     vendor/zte/blade2/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/zte/blade2/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/zte/blade2/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
