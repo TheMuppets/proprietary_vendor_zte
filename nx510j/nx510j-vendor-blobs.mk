@@ -20,24 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
-    vendor/zte/nx510j/proprietary/etc/firmware/adsp.b00:system/etc/firmware/adsp.b00 \
-    vendor/zte/nx510j/proprietary/etc/firmware/adsp.b01:system/etc/firmware/adsp.b01 \
-    vendor/zte/nx510j/proprietary/etc/firmware/adsp.b02:system/etc/firmware/adsp.b02 \
-    vendor/zte/nx510j/proprietary/etc/firmware/adsp.b03:system/etc/firmware/adsp.b03 \
-    vendor/zte/nx510j/proprietary/etc/firmware/adsp.b04:system/etc/firmware/adsp.b04 \
-    vendor/zte/nx510j/proprietary/etc/firmware/adsp.b05:system/etc/firmware/adsp.b05 \
-    vendor/zte/nx510j/proprietary/etc/firmware/adsp.b06:system/etc/firmware/adsp.b06 \
-    vendor/zte/nx510j/proprietary/etc/firmware/adsp.b07:system/etc/firmware/adsp.b07 \
-    vendor/zte/nx510j/proprietary/etc/firmware/adsp.b08:system/etc/firmware/adsp.b08 \
-    vendor/zte/nx510j/proprietary/etc/firmware/adsp.b09:system/etc/firmware/adsp.b09 \
-    vendor/zte/nx510j/proprietary/etc/firmware/adsp.b10:system/etc/firmware/adsp.b10 \
-    vendor/zte/nx510j/proprietary/etc/firmware/adsp.b11:system/etc/firmware/adsp.b11 \
-    vendor/zte/nx510j/proprietary/etc/firmware/adsp.b12:system/etc/firmware/adsp.b12 \
-    vendor/zte/nx510j/proprietary/etc/firmware/adsp.b13:system/etc/firmware/adsp.b13 \
-    vendor/zte/nx510j/proprietary/etc/firmware/adsp.b14:system/etc/firmware/adsp.b14 \
-    vendor/zte/nx510j/proprietary/etc/firmware/adsp.b15:system/etc/firmware/adsp.b15 \
-    vendor/zte/nx510j/proprietary/etc/firmware/adsp.mbn:system/etc/firmware/adsp.mbn \
-    vendor/zte/nx510j/proprietary/etc/firmware/adsp.mdt:system/etc/firmware/adsp.mdt \
     vendor/zte/nx510j/proprietary/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
     vendor/zte/nx510j/proprietary/etc/acdbdata/Fluid/Fluid_General_cal.acdb:system/etc/acdbdata/Fluid/Fluid_General_cal.acdb \
     vendor/zte/nx510j/proprietary/etc/acdbdata/Fluid/Fluid_Global_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Global_cal.acdb \
@@ -573,6 +555,10 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/zte/nx510j/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/zte/nx510j/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/zte/nx510j/proprietary/etc/modem_ota/ROW/mcfg_sw.mbn:system/etc/modem_ota/ROW/mcfg_sw.mbn \
+    vendor/zte/nx510j/proprietary/etc/modem_ota/CM/mcfg_sw.mbn:system/etc/modem_ota/CM/mcfg_sw.mbn \
+    vendor/zte/nx510j/proprietary/etc/modem_ota/CT/mcfg_sw.mbn:system/etc/modem_ota/CT/mcfg_sw.mbn \
+    vendor/zte/nx510j/proprietary/etc/modem_ota/CU/mcfg_sw.mbn:system/etc/modem_ota/CU/mcfg_sw.mbn \
     vendor/zte/nx510j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/zte/nx510j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0090_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0090_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/zte/nx510j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0092_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0092_Generic_I2C_NCD_Unsigned_configdata.ncd \
