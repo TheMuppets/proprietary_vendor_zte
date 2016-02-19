@@ -1,4 +1,4 @@
-# Copyright (C) 2015 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -432,106 +432,115 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_s5k3m2xx.so:system/vendor/lib/libmmcamera_s5k3m2xx.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_sony_imx214_eeprom.so:system/vendor/lib/libmmcamera_sony_imx214_eeprom.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so \
+    vendor/zte/nx510j/proprietary/bin/cnd:system/bin/cnd \
+    vendor/zte/nx510j/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
+    vendor/zte/nx510j/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
+    vendor/zte/nx510j/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
+    vendor/zte/nx510j/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+    vendor/zte/nx510j/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
+    vendor/zte/nx510j/proprietary/bin/dpmd:system/bin/dpmd \
+    vendor/zte/nx510j/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
+    vendor/zte/nx510j/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
+    vendor/zte/nx510j/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
+    vendor/zte/nx510j/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
     vendor/zte/nx510j/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/zte/nx510j/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/zte/nx510j/proprietary/bin/location-mq:system/bin/location-mq \
-    vendor/zte/nx510j/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/zte/nx510j/proprietary/bin/lowi-server:system/bin/lowi-server \
-    vendor/zte/nx510j/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
-    vendor/zte/nx510j/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
-    vendor/zte/nx510j/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/zte/nx510j/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/zte/nx510j/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
-    vendor/zte/nx510j/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libquipc_ulp_adapter.so:system/vendor/lib64/libquipc_ulp_adapter.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libxtwifi_zpp_adaptor.so:system/vendor/lib64/libxtwifi_zpp_adaptor.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libasn1cper.so:system/vendor/lib64/libasn1cper.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libasn1crt.so:system/vendor/lib64/libasn1crt.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libasn1crtx.so:system/vendor/lib64/libasn1crtx.so \
     vendor/zte/nx510j/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libgdtap.so:system/vendor/lib/libgdtap.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/zte/nx510j/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/zte/nx510j/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
     vendor/zte/nx510j/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/zte/nx510j/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/zte/nx510j/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/zte/nx510j/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/zte/nx510j/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/zte/nx510j/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/zte/nx510j/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/zte/nx510j/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/zte/nx510j/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
     vendor/zte/nx510j/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/zte/nx510j/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/zte/nx510j/proprietary/vendor/lib/hw/sound_trigger.primary.msm8994.so:system/vendor/lib/hw/sound_trigger.primary.msm8994.so \
@@ -556,6 +565,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/etc/modem_ota/CM/mcfg_sw.mbn:system/etc/modem_ota/CM/mcfg_sw.mbn \
     vendor/zte/nx510j/proprietary/etc/modem_ota/CT/mcfg_sw.mbn:system/etc/modem_ota/CT/mcfg_sw.mbn \
     vendor/zte/nx510j/proprietary/etc/modem_ota/CU/mcfg_sw.mbn:system/etc/modem_ota/CU/mcfg_sw.mbn \
+    vendor/zte/nx510j/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
     vendor/zte/nx510j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/zte/nx510j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0090_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0090_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/zte/nx510j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0092_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0092_Generic_I2C_NCD_Unsigned_configdata.ncd \
@@ -608,19 +619,21 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+    vendor/zte/nx510j/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/zte/nx510j/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/zte/nx510j/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/zte/nx510j/proprietary/bin/radish:system/bin/radish \
     vendor/zte/nx510j/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/zte/nx510j/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
+    vendor/zte/nx510j/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+    vendor/zte/nx510j/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/zte/nx510j/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/zte/nx510j/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/zte/nx510j/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/zte/nx510j/proprietary/lib64/hw/sensors.oem.so:system/lib64/hw/sensors.oem.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/hw/sensors.msm8994.so:system/vendor/lib64/hw/sensors.msm8994.so \
