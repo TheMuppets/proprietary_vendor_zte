@@ -24,25 +24,11 @@ PRODUCT_PACKAGES += \
     qcrilhook
 
 PRODUCT_PACKAGES += \
-    libdiag \
-    libdsutils \
-    libidl \
-    libmdmdetect \
-    libqcci_legacy \
-    libqmi_cci \
-    libqmi_client_qmux \
-    libqmiservices \
-    libqmi
+    libtime_genoff \
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api
-
-PRODUCT_PACKAGES += \
-    libtime_genoff
-
-PRODUCT_PACKAGES += \
-    libwpa_qmi_eap_proxy
 
 PRODUCT_PACKAGES += \
     libmm-disp-apis
