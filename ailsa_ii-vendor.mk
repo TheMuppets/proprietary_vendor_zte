@@ -281,6 +281,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/zte/ailsa_ii/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/zte/ailsa_ii/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/zte/ailsa_ii/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/zte/ailsa_ii/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/zte/ailsa_ii/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/zte/ailsa_ii/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
@@ -473,8 +474,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
-    vendor/zte/ailsa_ii/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
-    vendor/zte/ailsa_ii/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib64/libmmQSM.so:system/vendor/lib64/libmmQSM.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
