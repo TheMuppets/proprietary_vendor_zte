@@ -369,7 +369,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/zte/ailsa_ii/proprietary/lib64/hw/audio.primary.msm8996.so:system/lib64/hw/audio.primary.msm8996.so \
     vendor/zte/ailsa_ii/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
-    vendor/zte/ailsa_ii/proprietary/lib64/hw/sensors.msm8996.so:system/lib64/hw/sensors.msm8996.so \
     vendor/zte/ailsa_ii/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/zte/ailsa_ii/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/zte/ailsa_ii/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
@@ -377,7 +376,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/lib64/libtfa9890.so:system/lib64/libtfa9890.so \
     vendor/zte/ailsa_ii/proprietary/lib/hw/audio.primary.msm8996.so:system/lib/hw/audio.primary.msm8996.so \
     vendor/zte/ailsa_ii/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/zte/ailsa_ii/proprietary/lib/hw/sensors.msm8996.so:system/lib/hw/sensors.msm8996.so \
     vendor/zte/ailsa_ii/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/zte/ailsa_ii/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/zte/ailsa_ii/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
