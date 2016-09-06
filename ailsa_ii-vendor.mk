@@ -352,9 +352,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/zte/ailsa_ii/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/zte/ailsa_ii/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
-    vendor/zte/ailsa_ii/proprietary/etc/settings/mono_qcom_rcv.cnt:system/etc/settings/mono_qcom_rcv.cnt \
-    vendor/zte/ailsa_ii/proprietary/etc/settings/mono_qcom_spk_l.cnt:system/etc/settings/mono_qcom_spk_l.cnt \
-    vendor/zte/ailsa_ii/proprietary/etc/settings/stereo_qcom_spk.cnt:system/etc/settings/stereo_qcom_spk.cnt \
     vendor/zte/ailsa_ii/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/zte/ailsa_ii/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/zte/ailsa_ii/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
@@ -367,21 +364,17 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/zte/ailsa_ii/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/zte/ailsa_ii/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/zte/ailsa_ii/proprietary/lib64/hw/audio.primary.msm8996.so:system/lib64/hw/audio.primary.msm8996.so \
     vendor/zte/ailsa_ii/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/zte/ailsa_ii/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/zte/ailsa_ii/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/zte/ailsa_ii/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/zte/ailsa_ii/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-    vendor/zte/ailsa_ii/proprietary/lib64/libtfa9890.so:system/lib64/libtfa9890.so \
-    vendor/zte/ailsa_ii/proprietary/lib/hw/audio.primary.msm8996.so:system/lib/hw/audio.primary.msm8996.so \
     vendor/zte/ailsa_ii/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/zte/ailsa_ii/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/zte/ailsa_ii/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/zte/ailsa_ii/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/zte/ailsa_ii/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/zte/ailsa_ii/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
-    vendor/zte/ailsa_ii/proprietary/lib/libtfa9890.so:system/lib/libtfa9890.so \
     vendor/zte/ailsa_ii/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/zte/ailsa_ii/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/zte/ailsa_ii/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
@@ -649,11 +642,9 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/rfsa/adsp/libvpp_svc_skel.so:system/vendor/lib/rfsa/adsp/libvpp_svc_skel.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/sensors.oem.so:system/vendor/lib/sensors.oem.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
-    vendor/zte/ailsa_ii/proprietary/vendor/lib/soundfx/libhwdap.so:system/vendor/lib/soundfx/libhwdap.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
-    vendor/zte/ailsa_ii/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so \
     vendor/zte/ailsa_ii/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
