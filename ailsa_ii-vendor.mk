@@ -369,13 +369,17 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/zte/ailsa_ii/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/zte/ailsa_ii/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
+    vendor/zte/ailsa_ii/proprietary/lib64/libmodemapi.so:system/lib64/libmodemapi.so \
+    vendor/zte/ailsa_ii/proprietary/lib64/libztecfg.so:system/lib64/libztecfg.so \
     vendor/zte/ailsa_ii/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/zte/ailsa_ii/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/zte/ailsa_ii/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/zte/ailsa_ii/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/zte/ailsa_ii/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/zte/ailsa_ii/proprietary/lib/libmodemapi.so:system/lib/libmodemapi.so \
     vendor/zte/ailsa_ii/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/zte/ailsa_ii/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/zte/ailsa_ii/proprietary/lib/libztecfg.so:system/lib/libztecfg.so \
     vendor/zte/ailsa_ii/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/zte/ailsa_ii/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/zte/ailsa_ii/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
