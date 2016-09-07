@@ -75,6 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/lib64/hw/lights.msm8996.so:system/lib64/hw/lights.msm8996.so \
     vendor/zte/ailsa_ii/proprietary/lib64/lib_alipay_tac_shared.so:system/lib64/lib_alipay_tac_shared.so \
     vendor/zte/ailsa_ii/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
+    vendor/zte/ailsa_ii/proprietary/lib64/libfpnav.so:system/lib64/libfpnav.so \
     vendor/zte/ailsa_ii/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
     vendor/zte/ailsa_ii/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/zte/ailsa_ii/proprietary/lib/hw/lights.msm8996.so:system/lib/hw/lights.msm8996.so \
