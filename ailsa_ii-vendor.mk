@@ -84,7 +84,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/zte/ailsa_ii/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/zte/ailsa_ii/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
-    vendor/zte/ailsa_ii/proprietary/vendor/lib64/hw/fingerprint.msm8996.so:system/vendor/lib64/hw/fingerprint.msm8996.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libactuator_ak7371.so:system/vendor/lib/libactuator_ak7371.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_ov8856_a3_default_preview.so:system/vendor/lib/libchromatix_ov8856_a3_default_preview.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_ov8856_a3_default_video.so:system/vendor/lib/libchromatix_ov8856_a3_default_video.so \
