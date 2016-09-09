@@ -168,6 +168,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_video_hdr.so:system/vendor/lib/libchromatix_s5k2t8_video_hdr.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_zsl_preview_bu63165.so:system/vendor/lib/libchromatix_s5k2t8_zsl_preview_bu63165.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_s5k2t8_zsl_video_bu63165.so:system/vendor/lib/libchromatix_s5k2t8_zsl_video_bu63165.so \
+    vendor/zte/ailsa_ii/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libFNVfbEngineHAL.so:system/vendor/lib/libFNVfbEngineHAL.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libImgFvDetect.so:system/vendor/lib/libImgFvDetect.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
