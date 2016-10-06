@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/bin/alipayServiced:system/bin/alipayServiced \
+    vendor/zte/ailsa_ii/proprietary/bin/climax_hostSW:system/bin/climax_hostSW \
     vendor/zte/ailsa_ii/proprietary/bin/fingerprintd_gx:system/bin/fingerprintd_gx \
     vendor/zte/ailsa_ii/proprietary/bin/goodixFpTest:system/bin/goodixFpTest \
     vendor/zte/ailsa_ii/proprietary/bin/gx_fpd:system/bin/gx_fpd \
@@ -70,6 +71,9 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/etc/firmware/ZTE_NDT_0X19_20160401.nfw:system/etc/firmware/ZTE_NDT_0X19_20160401.nfw \
     vendor/zte/ailsa_ii/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/zte/ailsa_ii/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
+    vendor/zte/ailsa_ii/proprietary/etc/settings/mono_qcom_rcv.cnt:system/etc/settings/mono_qcom_rcv.cnt \
+    vendor/zte/ailsa_ii/proprietary/etc/settings/mono_qcom_spk_l.cnt:system/etc/settings/mono_qcom_spk_l.cnt \
+    vendor/zte/ailsa_ii/proprietary/etc/settings/stereo_qcom_spk.cnt:system/etc/settings/stereo_qcom_spk.cnt \
     vendor/zte/ailsa_ii/proprietary/lib64/hw/fingerprint.goodix.default.so:system/lib64/hw/fingerprint.goodix.default.so \
     vendor/zte/ailsa_ii/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
     vendor/zte/ailsa_ii/proprietary/lib64/hw/lights.msm8996.so:system/lib64/hw/lights.msm8996.so \
@@ -77,12 +81,14 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
     vendor/zte/ailsa_ii/proprietary/lib64/libfpnav.so:system/lib64/libfpnav.so \
     vendor/zte/ailsa_ii/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
+    vendor/zte/ailsa_ii/proprietary/lib64/libtfa9890.so:system/lib64/libtfa9890.so \
     vendor/zte/ailsa_ii/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/zte/ailsa_ii/proprietary/lib/hw/lights.msm8996.so:system/lib/hw/lights.msm8996.so \
     vendor/zte/ailsa_ii/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/zte/ailsa_ii/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/zte/ailsa_ii/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/zte/ailsa_ii/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/zte/ailsa_ii/proprietary/lib/libtfa9890.so:system/lib/libtfa9890.so \
     vendor/zte/ailsa_ii/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libactuator_ak7371.so:system/vendor/lib/libactuator_ak7371.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_ov8856_a3_default_preview.so:system/vendor/lib/libchromatix_ov8856_a3_default_preview.so \
