@@ -88,14 +88,12 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
     vendor/zte/ailsa_ii/proprietary/lib64/libfpnav.so:system/lib64/libfpnav.so \
     vendor/zte/ailsa_ii/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
-    vendor/zte/ailsa_ii/proprietary/lib64/libtfa9890.so:system/lib64/libtfa9890.so \
     vendor/zte/ailsa_ii/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/zte/ailsa_ii/proprietary/lib/hw/lights.msm8996.so:system/lib/hw/lights.msm8996.so \
     vendor/zte/ailsa_ii/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/zte/ailsa_ii/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/zte/ailsa_ii/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/zte/ailsa_ii/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/zte/ailsa_ii/proprietary/lib/libtfa9890.so:system/lib/libtfa9890.so \
     vendor/zte/ailsa_ii/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libactuator_ak7371.so:system/vendor/lib/libactuator_ak7371.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libchromatix_ov8856_a3_default_preview.so:system/vendor/lib/libchromatix_ov8856_a3_default_preview.so \
@@ -289,6 +287,9 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libtsvideoprocess.so:system/vendor/lib/libtsvideoprocess.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libZEffectLib.so:system/vendor/lib/libZEffectLib.so
+
+PRODUCT_PACKAGES += \
+    libtfa9890
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
