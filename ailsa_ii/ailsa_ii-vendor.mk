@@ -355,9 +355,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
     vendor/zte/ailsa_ii/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/zte/ailsa_ii/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
-    vendor/zte/ailsa_ii/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/zte/ailsa_ii/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
-    vendor/zte/ailsa_ii/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/zte/ailsa_ii/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/zte/ailsa_ii/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/zte/ailsa_ii/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
@@ -371,7 +369,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/zte/ailsa_ii/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/zte/ailsa_ii/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
-    vendor/zte/ailsa_ii/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/zte/ailsa_ii/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/zte/ailsa_ii/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/zte/ailsa_ii/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
@@ -674,11 +671,9 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     TimeService \
     CNEService \
-    com.qualcomm.location \
     dpmserviceapp \
     qcrilmsgtunnel \
     QtiTetherService \
-    xtra_t_app \
     colorservice \
     qcnvitems \
     qcrilhook
