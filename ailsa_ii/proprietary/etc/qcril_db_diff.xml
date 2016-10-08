@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiffData>
+    <DiffItemData table="qcril_operator_type_table" op="overwrite">
+        <Element name="MCC" pos="where">
+            <Content type="TEXT">460</Content>
+        </Element>
+        <Element name="MNC" pos="where">
+            <Content type="TEXT">11</Content>
+        </Element>
+        <Element name="TYPE" pos="set">
+            <Content type="TEXT">3gpp2</Content>
+        </Element>
+    </DiffItemData>
+</DiffData>
