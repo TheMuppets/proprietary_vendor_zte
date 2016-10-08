@@ -530,6 +530,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
+    vendor/zte/ailsa_ii/proprietary/vendor/lib64/libsensor_user_cal.so:system/vendor/lib64/libsensor_user_cal.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
@@ -635,6 +636,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
+    vendor/zte/ailsa_ii/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
