@@ -170,6 +170,17 @@ A3Video :
       <A3Preview>s5k2t8_hfr_300_bu63165</A3Preview>
       <A3Video>s5k2t8_hfr_300_bu63165</A3Video>
     </ChromatixName>
+       <ChromatixName sensor_resolution_index="9">
+      <ISPPreview>s5k2t8_snapshot_livephoto</ISPPreview>
+      <ISPSnapshot>s5k2t8_snapshot_livephoto</ISPSnapshot>
+      <ISPVideo>s5k2t8_snapshot</ISPVideo>
+      <CPPPreview>s5k2t8_cpp_preview_livephoto</CPPPreview>
+      <CPPSnapshot>s5k2t8_cpp_snapshot_livephoto</CPPSnapshot>
+      <CPPVideo>s5k2t8_cpp_video</CPPVideo>
+      <CPPLiveshot>s5k2t8_cpp_liveshot</CPPLiveshot>
+      <A3Preview>s5k2t8_a3_preview_livephoto</A3Preview>
+      <A3Video>s5k2t8_zsl_video_bu63165</A3Video>
+    </ChromatixName>
   </ResolutionChromatixInfo>
 </ChromatixConfigurationRoot>
 
