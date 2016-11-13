@@ -18,6 +18,17 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),ailsa_ii)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := libtfa9890
+LOCAL_MODULE_OWNER := zte
+LOCAL_SRC_FILES_64 := proprietary/lib64/libtfa9890.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libtfa9890.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
 
 ifeq ($(QCPATH),)
 include $(CLEAR_VARS)
