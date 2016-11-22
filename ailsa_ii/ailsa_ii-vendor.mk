@@ -93,6 +93,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/zte/ailsa_ii/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/zte/ailsa_ii/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/zte/ailsa_ii/proprietary/lib/libmorpho_refocus.so:system/lib/libmorpho_refocus.so \
     vendor/zte/ailsa_ii/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/zte/ailsa_ii/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libactuator_ak7371.so:system/vendor/lib/libactuator_ak7371.so \
