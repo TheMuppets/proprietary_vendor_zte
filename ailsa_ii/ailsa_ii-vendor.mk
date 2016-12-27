@@ -356,7 +356,9 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
     vendor/zte/ailsa_ii/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/zte/ailsa_ii/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
+    vendor/zte/ailsa_ii/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/zte/ailsa_ii/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
+    vendor/zte/ailsa_ii/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/zte/ailsa_ii/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/zte/ailsa_ii/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/zte/ailsa_ii/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
@@ -370,6 +372,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/zte/ailsa_ii/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/zte/ailsa_ii/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
+    vendor/zte/ailsa_ii/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/zte/ailsa_ii/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/zte/ailsa_ii/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/zte/ailsa_ii/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
@@ -378,22 +381,18 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/zte/ailsa_ii/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/zte/ailsa_ii/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/zte/ailsa_ii/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
-    vendor/zte/ailsa_ii/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/zte/ailsa_ii/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
-    vendor/zte/ailsa_ii/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
-    vendor/zte/ailsa_ii/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
+    vendor/zte/ailsa_ii/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/zte/ailsa_ii/proprietary/lib64/libmodemapi.so:system/lib64/libmodemapi.so \
     vendor/zte/ailsa_ii/proprietary/lib64/libztecfg.so:system/lib64/libztecfg.so \
-    vendor/zte/ailsa_ii/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/zte/ailsa_ii/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/zte/ailsa_ii/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/zte/ailsa_ii/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/zte/ailsa_ii/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/zte/ailsa_ii/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/zte/ailsa_ii/proprietary/lib/libmodemapi.so:system/lib/libmodemapi.so \
     vendor/zte/ailsa_ii/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/zte/ailsa_ii/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/zte/ailsa_ii/proprietary/lib/libztecfg.so:system/lib/libztecfg.so \
+    vendor/zte/ailsa_ii/proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk:system/priv-app/com.qualcomm.location/com.qualcomm.location.apk \
+    vendor/zte/ailsa_ii/proprietary/priv-app/xtra_t_app/xtra_t_app.apk:system/priv-app/xtra_t_app/xtra_t_app.apk \
     vendor/zte/ailsa_ii/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/zte/ailsa_ii/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/zte/ailsa_ii/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
