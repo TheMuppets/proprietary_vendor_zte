@@ -405,15 +405,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/zte/ailsa_ii/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/zte/ailsa_ii/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/zte/ailsa_ii/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
-    vendor/zte/ailsa_ii/proprietary/lib64/libgnsspps.so:system/lib64/libgnsspps.so \
-    vendor/zte/ailsa_ii/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
-    vendor/zte/ailsa_ii/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
-    vendor/zte/ailsa_ii/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/zte/ailsa_ii/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/zte/ailsa_ii/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-    vendor/zte/ailsa_ii/proprietary/lib64/libloc_pla.so:system/lib64/libloc_pla.so \
-    vendor/zte/ailsa_ii/proprietary/lib64/libloc_stub.so:system/lib64/libloc_stub.so \
     vendor/zte/ailsa_ii/proprietary/lib64/libmodemapi.so:system/lib64/libmodemapi.so \
     vendor/zte/ailsa_ii/proprietary/lib64/libztecfg.so:system/lib64/libztecfg.so \
     vendor/zte/ailsa_ii/proprietary/lib/libmodemapi.so:system/lib/libmodemapi.so \
@@ -693,6 +685,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
+    libloc_api_v02 \
     libthermalclient \
     libtime_genoff \
     datastatusnotification \
