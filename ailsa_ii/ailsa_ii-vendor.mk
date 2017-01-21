@@ -27,6 +27,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/zte/ailsa_ii/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/zte/ailsa_ii/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
+    vendor/zte/ailsa_ii/proprietary/etc/camera/ov8856_chromatix.xml:system/etc/camera/ov8856_chromatix.xml \
+    vendor/zte/ailsa_ii/proprietary/etc/camera/s5k2t8_chromatix.xml:system/etc/camera/s5k2t8_chromatix.xml \
     vendor/zte/ailsa_ii/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
     vendor/zte/ailsa_ii/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/zte/ailsa_ii/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
