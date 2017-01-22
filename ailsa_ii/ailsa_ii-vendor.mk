@@ -594,6 +594,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/zte/ailsa_ii/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libqti-wl.so:system/vendor/lib/libqti-wl.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/zte/ailsa_ii/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
